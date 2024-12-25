@@ -17,5 +17,23 @@ java you_class_name # 執行檔案
 ```
 javac -d output_file your_file_name.java
 ```
-4. package的部分Ian還卡住
+4. package的部分大概是如下示範
+當程式碼如下時
+```
+package practice;
+....
+....
+...
+...
+```
+- 代表今天javac編譯後會被放進practice的資料包中</br>
+- 執行時，必須用以下方式執行class
+```
+PS D:\北科大-專題\Java_practice\Ian> javac practice/J_001.java
+PS D:\北科大-專題\Java_practice\Ian> java practice.J_001
+x = 10
+y = 1000000000000000000
+x = 11
+b = true
+```
 
