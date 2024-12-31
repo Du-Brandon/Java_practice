@@ -1,4 +1,4 @@
-package practice;
+package practice_001;
 
 // 此為基礎練習之變數宣告篇
 public class J_001 {

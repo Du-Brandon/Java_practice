@@ -1,7 +1,7 @@
 # Java_practice
 ## 前置作業
 1. 要記得安裝JDK
-    - [網頁在這裡](https://www.oracle.com/java/technologies/downloads/#jdk23-windows)下載MSI那個
+    - [網頁在這裡](https://www.oracle.com/java/technologies/downloads/#jdk23-windows) => 下載MSI那個
     
 2. 設置環境變數
     - 將安裝的Java資料夾位置存下來放進環境變數那裡
@@ -29,8 +29,8 @@ package practice;
 - 代表今天javac編譯後會被放進practice的資料包中</br>
 - 執行時，必須用以下方式執行class
 ```
-PS D:\北科大-專題\Java_practice\Ian> javac practice/J_001.java
-PS D:\北科大-專題\Java_practice\Ian> java practice.J_001
+PS D:\北科大-專題\Java_practice\Ian> javac practice_001/J_001.java
+PS D:\北科大-專題\Java_practice\Ian> java practice_001.J_001
 x = 10
 y = 1000000000000000000
 x = 11
