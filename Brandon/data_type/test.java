@@ -13,7 +13,9 @@ public class test {
         // 小數預設為double
         System.out.println(3.141592653);
         System.out.println(3.141592653F); //加L變為long
-
+        
+        long bb = a;
+        System.out.println(bb);
         // java不接受大型別轉小(EX:int a = 3 byte b = a),但可以強制定型
         byte b = (byte)a;
         System.out.println(b);
