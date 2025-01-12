@@ -19,7 +19,7 @@ public class test {
         System.out.println(b);
 
         // 不接受 int c = 5/2.0 (不同型別運算)
-        
+        // 
     }
     
 }
