@@ -14,9 +14,10 @@ class Test{
 
     }
 
-    // 定義參數
+    // 定義參數 
     static void func_2(String a){
         System.out.println(a);
 
     }
+    // 回傳值跟C++一樣，都是一開始就要宣告
 }
