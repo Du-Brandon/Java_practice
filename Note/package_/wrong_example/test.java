@@ -1,4 +1,4 @@
-class Basicmath {
+class Basicmath { //class名稱與檔名不同
     static double pi = 3.141592653;
     static int add (int a1,int a2){
         return a1+a2;
