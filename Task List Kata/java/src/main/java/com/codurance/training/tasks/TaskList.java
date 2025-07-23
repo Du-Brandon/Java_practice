@@ -65,6 +65,9 @@ public final class TaskList implements Runnable {
             case "help":
                 help();
                 break;
+            case "delete":
+                delete();
+                break;
             default:
                 error(command);
                 break;
@@ -145,5 +148,9 @@ public final class TaskList implements Runnable {
 
     private long nextId() {
         return ++lastId;
+    }
+
+    private void delete() {
+//        System.out.print("delete() was called.");
     }
 }
