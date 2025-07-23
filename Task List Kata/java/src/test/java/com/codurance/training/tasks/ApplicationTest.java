@@ -99,6 +99,14 @@ public final class ApplicationTest {
         execute("quit");
     }
 
+
+    @Test(timeout = 1000) public void test_first() throws IOException {
+        execute("show");
+
+        execute("quit");
+    }
+
+
     private void execute(String command) throws IOException {
         read(PROMPT);
         write(command);
